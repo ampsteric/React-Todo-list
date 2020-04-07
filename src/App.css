@@ -1,6 +1,40 @@
 .App {
   text-align: center;
 }
+.container{
+  display: flex;
+
+}
+.header{
+  width: 100%;
+  height: 50px;
+}
+.header h1{
+  color: #6C63FF;
+  margin-top: 10px;
+  font-family: 'Aclonica';
+  font-size: 50px;
+}
+.left{
+align-content: center;
+  height:70vh;
+  width:40%;
+  border-radius: 20px;
+  box-shadow: 8px 10px 35px #6C63FF;
+  background-color: white;
+  margin: 50px;
+  margin-right: 100px;
+}
+.right{
+  margin-left: 0;
+  height:70vh;
+  /* width:60%; */
+}
+.right img{
+  margin-top:70px;
+height: 60vh;
+width: 50%;
+}
 
 .App-logo {
   height: 40vmin;
